@@ -1,0 +1,6 @@
+# Ignore Python bytecode files
+*.pyc
+# Ignore virtual environment directories
+venv/
+#Ignore .claude folder
+.claude/
