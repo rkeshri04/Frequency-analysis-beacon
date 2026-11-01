@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Spots periodic traffic (beacons, cron check-ins, polling loops) by watching
 the frequency domain instead of individual packets.
 
@@ -10,7 +9,6 @@ signal at f0 also shows up at 2*f0, 3*f0, ... so we only flag it when a few of
 those harmonics light up together for a couple of windows. The fundamental is
 searched for, nothing is hardcoded to a particular rate.
 
-Run this first, then fire up hacker_botnet.py. Needs numpy + matplotlib.
 """
 
 import argparse
